@@ -59,3 +59,27 @@ Fichiers validés qui ont été modifiés.
 Permet à git d'ignorer des fichiers et des dossiers
 
 [Template de gitignore](https://github.com/github/gitignore)
+
+
+## Les repositories en ligne _(GitHub, GitLab, Bitbucker, Azure Devops, ...)_
+
+### Config le lien entre le repo local et le distant
+```
+# Exemple générique
+git remote add <name-remote> <branch>
+
+# Exemple réel
+git remote add origin main
+```
+
+### Envoyer le repo local vers le distant
+```
+# Exemple en precisant le nom de la remote et de la branche
+git push origin main
+
+# Exemple en configurant le nom de la remote et de la branche
+git push -u origin main
+
+# Exemple si l'upstream est config
+git push
+```
