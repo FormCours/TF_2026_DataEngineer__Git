@@ -25,6 +25,10 @@ _L'option "--global" permet de faire une configration globale à la machine._
 # Ajouter tous les fichiers
 git add .
 
+
+# Ajouter ...
+git add *
+
 # Ajouter un fichier
 git add <path-file>
 ```
@@ -34,3 +38,18 @@ git add <path-file>
 git commit -m "Votre sublime message de commitage 🦊"
 ```
 
+
+## Fonctionnement de git 
+
+### Fichier non-suivi
+Utilisation de `git add` pour traquer les fichiers.
+
+### Fichier suivi
+- Staged (En attente de validation)
+Fichiers non-suivi ou modifié après un `git add`.
+
+- Validate
+Fichiers validés via `git commit`.
+
+- Modified
+Fichiers validés qui ont été modifiés.
