@@ -1,0 +1,8 @@
+# Fichier d'env
+.env
+.env.*
+!.env.example
+
+# IDE
+.vs
+.vscode

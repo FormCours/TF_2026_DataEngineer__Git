@@ -53,3 +53,9 @@ Fichiers validés via `git commit`.
 
 - Modified
 Fichiers validés qui ont été modifiés.
+
+
+## Le fichier ".gitignore"
+Permet à git d'ignorer des fichiers et des dossiers
+
+[Template de gitignore](https://github.com/github/gitignore)
