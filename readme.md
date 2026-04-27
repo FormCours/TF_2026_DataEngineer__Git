@@ -59,3 +59,20 @@ Fichiers validés qui ont été modifiés.
 Permet à git d'ignorer des fichiers et des dossiers
 
 [Template de gitignore](https://github.com/github/gitignore)
+
+
+### Récuperer le code via le repo distant
+- Cloner le code
+```
+git clone <url-git>
+git clone <url-git> <nom-dossier>
+```
+
+- Mettre à jour le code
+```
+# Récuperation des modifs sans les appliquer
+git fetch
+
+# Récuperation des modifs 
+git pull
+```
